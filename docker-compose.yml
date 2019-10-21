@@ -6,7 +6,7 @@ services:
     hostname: localhost
     build: angular-app # specify the directory of the Dockerfile
     ports:
-      - "8181:80" # specify port forewarding
+      - "4200:4200" # specify port forewarding
 
   express: #name of the second service
     build: express-server # specify the directory of the Dockerfile
